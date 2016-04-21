@@ -6,7 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 ENV['VAGRANT_DEFAULT_PROVIDER'] = 'virtualbox'
 
-if ! File.exists?('./SQLEXPRWT_x64_ENU.exe')
+if ! File.exists?('./SQLEXPRWT_x64_KOR.exe')
   puts 'SQL Server installer could not be found!'
   puts "Please run:\n  wget https://download.microsoft.com/download/5/9/9/5995FEA5-97E8-4A01-BDFB-78E27F4873AC/ExpressAndTools%2064BIT/SQLEXPRWT_x64_KOR.exe"
   exit 1
