@@ -8,7 +8,7 @@ ENV['VAGRANT_DEFAULT_PROVIDER'] = 'virtualbox'
 
 if ! File.exists?('./SQLEXPRWT_x64_ENU.exe')
   puts 'SQL Server installer could not be found!'
-  puts "Please run:\n  wget http://download.microsoft.com/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/ExpressAndTools%2064BIT/SQLEXPRWT_x64_ENU.exe"
+  puts "Please run:\n  wget https://download.microsoft.com/download/5/9/9/5995FEA5-97E8-4A01-BDFB-78E27F4873AC/ExpressAndTools%2064BIT/SQLEXPRWT_x64_KOR.exe"
   exit 1
 end
 
